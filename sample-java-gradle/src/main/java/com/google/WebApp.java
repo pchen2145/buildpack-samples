@@ -12,7 +12,7 @@ public class WebApp {
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
 
         server.createContext("/", handler -> {
-            byte[] response = "hello, team cognizance".getBytes();
+            byte[] response = "hello, cognizance".getBytes();
             handler.sendResponseHeaders(200, response.length);
             try (OutputStream os = handler.getResponseBody()) {
                 os.write(response);
