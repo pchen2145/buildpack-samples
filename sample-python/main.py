@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def index():
-    return "hello and good morning, team cognizance"
+    return "Good morning, team cognizance"
 
 
 if __name__ == "__main__":
