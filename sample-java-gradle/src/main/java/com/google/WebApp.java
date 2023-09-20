@@ -19,7 +19,7 @@ public class WebApp {
             }
         });
 
-        System.out.println("Listening svc at http://localhost:" + port);
+        System.out.println("Listening at http://localhost:" + port);
 
         server.start();
     }
